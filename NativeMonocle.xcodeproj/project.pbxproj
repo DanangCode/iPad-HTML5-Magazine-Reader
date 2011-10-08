@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58EA9C111440F7D20066EB73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EA9C101440F7D20066EB73 /* UIKit.framework */; };
+		58EA9C131440F7D20066EB73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EA9C121440F7D20066EB73 /* Foundation.framework */; };
+		58EA9C151440F7D20066EB73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EA9C141440F7D20066EB73 /* CoreGraphics.framework */; };
+		58EA9C1B1440F7D20066EB73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58EA9C191440F7D20066EB73 /* InfoPlist.strings */; };
+		58EA9C1D1440F7D20066EB73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EA9C1C1440F7D20066EB73 /* main.m */; };
+		58EA9C211440F7D20066EB73 /* NativeMonocleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EA9C201440F7D20066EB73 /* NativeMonocleAppDelegate.m */; };
+		58EA9C241440F7D20066EB73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58EA9C221440F7D20066EB73 /* MainWindow.xib */; };
+		58EA9C271440F7D20066EB73 /* NativeMonocleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EA9C261440F7D20066EB73 /* NativeMonocleViewController.m */; };
+		58EA9C2A1440F7D20066EB73 /* NativeMonocleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58EA9C281440F7D20066EB73 /* NativeMonocleViewController.xib */; };
+		58EA9C431440FE260066EB73 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 58EA9C421440FE260066EB73 /* www */; };
+		58EA9C45144102FF0066EB73 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58EA9C44144102FF0066EB73 /* readme.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58EA9C0C1440F7D20066EB73 /* NativeMonocle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeMonocle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EA9C101440F7D20066EB73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58EA9C121440F7D20066EB73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58EA9C141440F7D20066EB73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58EA9C181440F7D20066EB73 /* NativeMonocle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NativeMonocle-Info.plist"; sourceTree = "<group>"; };
+		58EA9C1A1440F7D20066EB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58EA9C1C1440F7D20066EB73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58EA9C1E1440F7D20066EB73 /* NativeMonocle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeMonocle-Prefix.pch"; sourceTree = "<group>"; };
+		58EA9C1F1440F7D20066EB73 /* NativeMonocleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeMonocleAppDelegate.h; sourceTree = "<group>"; };
+		58EA9C201440F7D20066EB73 /* NativeMonocleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeMonocleAppDelegate.m; sourceTree = "<group>"; };
+		58EA9C231440F7D20066EB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		58EA9C251440F7D20066EB73 /* NativeMonocleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeMonocleViewController.h; sourceTree = "<group>"; };
+		58EA9C261440F7D20066EB73 /* NativeMonocleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeMonocleViewController.m; sourceTree = "<group>"; };
+		58EA9C291440F7D20066EB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NativeMonocleViewController.xib; sourceTree = "<group>"; };
+		58EA9C421440FE260066EB73 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		58EA9C44144102FF0066EB73 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58EA9C091440F7D20066EB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA9C111440F7D20066EB73 /* UIKit.framework in Frameworks */,
+				58EA9C131440F7D20066EB73 /* Foundation.framework in Frameworks */,
+				58EA9C151440F7D20066EB73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58EA9C011440F7D10066EB73 = {
+			isa = PBXGroup;
+			children = (
+				58EA9C44144102FF0066EB73 /* readme.txt */,
+				58EA9C421440FE260066EB73 /* www */,
+				58EA9C161440F7D20066EB73 /* NativeMonocle */,
+				58EA9C0F1440F7D20066EB73 /* Frameworks */,
+				58EA9C0D1440F7D20066EB73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58EA9C0D1440F7D20066EB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58EA9C0C1440F7D20066EB73 /* NativeMonocle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58EA9C0F1440F7D20066EB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58EA9C101440F7D20066EB73 /* UIKit.framework */,
+				58EA9C121440F7D20066EB73 /* Foundation.framework */,
+				58EA9C141440F7D20066EB73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58EA9C161440F7D20066EB73 /* NativeMonocle */ = {
+			isa = PBXGroup;
+			children = (
+				58EA9C1F1440F7D20066EB73 /* NativeMonocleAppDelegate.h */,
+				58EA9C201440F7D20066EB73 /* NativeMonocleAppDelegate.m */,
+				58EA9C221440F7D20066EB73 /* MainWindow.xib */,
+				58EA9C251440F7D20066EB73 /* NativeMonocleViewController.h */,
+				58EA9C261440F7D20066EB73 /* NativeMonocleViewController.m */,
+				58EA9C281440F7D20066EB73 /* NativeMonocleViewController.xib */,
+				58EA9C171440F7D20066EB73 /* Supporting Files */,
+			);
+			path = NativeMonocle;
+			sourceTree = "<group>";
+		};
+		58EA9C171440F7D20066EB73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58EA9C181440F7D20066EB73 /* NativeMonocle-Info.plist */,
+				58EA9C191440F7D20066EB73 /* InfoPlist.strings */,
+				58EA9C1C1440F7D20066EB73 /* main.m */,
+				58EA9C1E1440F7D20066EB73 /* NativeMonocle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58EA9C0B1440F7D20066EB73 /* NativeMonocle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EA9C2D1440F7D20066EB73 /* Build configuration list for PBXNativeTarget "NativeMonocle" */;
+			buildPhases = (
+				58EA9C081440F7D20066EB73 /* Sources */,
+				58EA9C091440F7D20066EB73 /* Frameworks */,
+				58EA9C0A1440F7D20066EB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeMonocle;
+			productName = NativeMonocle;
+			productReference = 58EA9C0C1440F7D20066EB73 /* NativeMonocle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58EA9C031440F7D10066EB73 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 58EA9C061440F7D10066EB73 /* Build configuration list for PBXProject "NativeMonocle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58EA9C011440F7D10066EB73;
+			productRefGroup = 58EA9C0D1440F7D20066EB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58EA9C0B1440F7D20066EB73 /* NativeMonocle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58EA9C0A1440F7D20066EB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA9C1B1440F7D20066EB73 /* InfoPlist.strings in Resources */,
+				58EA9C241440F7D20066EB73 /* MainWindow.xib in Resources */,
+				58EA9C2A1440F7D20066EB73 /* NativeMonocleViewController.xib in Resources */,
+				58EA9C431440FE260066EB73 /* www in Resources */,
+				58EA9C45144102FF0066EB73 /* readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58EA9C081440F7D20066EB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA9C1D1440F7D20066EB73 /* main.m in Sources */,
+				58EA9C211440F7D20066EB73 /* NativeMonocleAppDelegate.m in Sources */,
+				58EA9C271440F7D20066EB73 /* NativeMonocleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58EA9C191440F7D20066EB73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58EA9C1A1440F7D20066EB73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58EA9C221440F7D20066EB73 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58EA9C231440F7D20066EB73 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		58EA9C281440F7D20066EB73 /* NativeMonocleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58EA9C291440F7D20066EB73 /* en */,
+			);
+			name = NativeMonocleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58EA9C2B1440F7D20066EB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		58EA9C2C1440F7D20066EB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58EA9C2E1440F7D20066EB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeMonocle/NativeMonocle-Prefix.pch";
+				INFOPLIST_FILE = "NativeMonocle/NativeMonocle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58EA9C2F1440F7D20066EB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeMonocle/NativeMonocle-Prefix.pch";
+				INFOPLIST_FILE = "NativeMonocle/NativeMonocle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58EA9C061440F7D10066EB73 /* Build configuration list for PBXProject "NativeMonocle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EA9C2B1440F7D20066EB73 /* Debug */,
+				58EA9C2C1440F7D20066EB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EA9C2D1440F7D20066EB73 /* Build configuration list for PBXNativeTarget "NativeMonocle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EA9C2E1440F7D20066EB73 /* Debug */,
+				58EA9C2F1440F7D20066EB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58EA9C031440F7D10066EB73 /* Project object */;
+}
